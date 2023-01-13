@@ -1,0 +1,36 @@
+#div2 {
+  height: 200px;
+  width: 200px;
+  background-color: greenyellow;
+  position: relative;
+  top: 100px;
+  left: 25%;
+
+  border-left: 5px solid black;
+  transition: all 1s ease-in-out;
+
+  /* transition : which property, transition time, ease-in-out, transition delay */
+}
+
+#div2:hover {
+  height: 300px;
+  width: 300px;
+  transform: translateX(50%);
+}
+
+#div3 {
+  height: 200px;
+  width: 200px;
+  background-color: lightskyblue;
+  position: relative;
+  top: 200px;
+  left: 25%;
+  /* border-left: 5px solid black; */
+  transition: all 1s ease-in-out;
+}
+
+#div3:hover {
+  border-radius: 50%;
+
+  transform: translateX(200px) rotate(400deg);
+}

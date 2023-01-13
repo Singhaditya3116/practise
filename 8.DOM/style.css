@@ -1,0 +1,13 @@
+#outer {
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+  padding: 100px;
+}
+
+#inner {
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+}

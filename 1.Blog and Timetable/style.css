@@ -1,0 +1,90 @@
+/* Main Section */
+
+main {
+  width: 70%;
+  display: inline-block;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p,
+h1 {
+  font-family: sans-serif;
+}
+/* h3 {
+  text-transform: uppercase;
+} */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#blog-desc {
+  color: #314831;
+  margin-left: 12%;
+}
+
+#blog-desc:hover {
+  color: orange;
+}
+
+/* li h3 {
+  text-transform: uppercase;
+  font-family: cursive;
+} */
+
+/* -------------------Author Section */
+#author {
+  width: 10%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+}
+article {
+  width: 80%;
+  display: inline-block;
+}
+
+#author-img {
+  width: 80px;
+  height: 80px;
+}
+
+/* -------------------Aside Section */
+.widget {
+  border-top: 4px solid black;
+  margin-top: 5%;
+}
+
+.widget input {
+  display: block;
+  background-color: #f7f7f7;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: 4px;
+  color: black;
+  font-size: 1.2rem;
+  border-radius: 7px;
+}
+
+button[type="submit"] {
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.widget-title {
+  font-size: 1.5rem;
+}
+
+aside {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  /* margin-left: 4%; */
+  margin-top: 5%;
+}
